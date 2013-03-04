@@ -1,5 +1,5 @@
 SampleApp::Application.routes.draw do
-  resources :users
+  resources :users#, :only => [:new, :show]
 
   root to: 'static_pages#home'
 
