@@ -29,6 +29,13 @@ describe "User pages" do
       it "should not create a user" do
         expect { click_button submit }.not_to change(User, :count)
       end
+
+      describe "error messages" do
+        before { click_button submit }
+
+        it { should have_selector('title', text: 'Sign up') }
+        it { should have_content('error') }
+      end
     end
 
     describe "with valid information" do
@@ -45,6 +52,7 @@ describe "User pages" do
 
       describe "after saving the user" do
         before { click_button submit }
+
         let(:user) { User.find_by_email('user@example.com') }
 
         it { should have_selector('title', text: user.name) }
@@ -61,7 +69,17 @@ describe "User pages" do
       visit edit_user_path(user)
     end
 
-    before { visit edit_user_path(user) }
+    describe "page" do
+      it { should have_selector('h1',    text: "Update your profile") }
+      it { should have_selector('title', text: "Edit user") }
+      it { should have_link('change', href: 'http://gravatar.com/emails') }
+    end
+
+    describe "with invalid information" do
+      before { click_button "Save changes" }
+
+      it { should have_content('error') }
+    end
 
     describe "with valid information" do
       let(:new_name)  { "New Name" }
