@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7142a142-4efb-45c8-94c4-8ab18a412a1c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories.rb" afterPath="$PROJECT_DIR$/spec/factories.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/_user.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/index.html.erb" afterPath="$PROJECT_DIR$/app/views/users/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sample_app.iml" afterPath="$PROJECT_DIR$/.idea/sample_app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sample_app.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7142a142-4efb-45c8-94c4-8ab18a412a1c" time="1364253849043" ignored="false" />
+    <file path="/Dummy.txt" changelist="7142a142-4efb-45c8-94c4-8ab18a412a1c" time="1364256351083" ignored="false" />
     <file path="/Ruby Console" changelist="7142a142-4efb-45c8-94c4-8ab18a412a1c" time="1364256039788" ignored="false" />
     <file path="/a.rxml" changelist="7142a142-4efb-45c8-94c4-8ab18a412a1c" time="1361247393690" ignored="false" />
     <file path="/a.coffee" changelist="7142a142-4efb-45c8-94c4-8ab18a412a1c" time="1361247399643" ignored="false" />
@@ -36,9 +30,10 @@
     <file path="/sessions_helper.rb" changelist="7142a142-4efb-45c8-94c4-8ab18a412a1c" time="1364252041454" ignored="false" />
     <file path="/utilities.rb" changelist="7142a142-4efb-45c8-94c4-8ab18a412a1c" time="1363064527111" ignored="false" />
     <file path="/_header.html.erb" changelist="7142a142-4efb-45c8-94c4-8ab18a412a1c" time="1364253121467" ignored="false" />
-    <file path="/index.html.erb" changelist="7142a142-4efb-45c8-94c4-8ab18a412a1c" time="1364255897835" ignored="false" />
+    <file path="/index.html.erb" changelist="7142a142-4efb-45c8-94c4-8ab18a412a1c" time="1364256618107" ignored="false" />
     <file path="/Gemfile" changelist="7142a142-4efb-45c8-94c4-8ab18a412a1c" time="1364255335960" ignored="false" />
     <file path="/factories.rb" changelist="7142a142-4efb-45c8-94c4-8ab18a412a1c" time="1364255563638" ignored="false" />
+    <file path="/_user.html.erb" changelist="7142a142-4efb-45c8-94c4-8ab18a412a1c" time="1364256569003" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,19 +73,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="31" selection-start="228" selection-end="228" vertical-scroll-proportion="-7.1923075">
+            <state line="3" column="32" selection-start="75" selection-end="75" vertical-scroll-proportion="0.17">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_user.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/users/_user.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="32" selection-start="74" selection-end="74" vertical-scroll-proportion="-1.3076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="47" selection-start="229" selection-end="229" vertical-scroll-proportion="0.2607362">
+            <state line="5" column="47" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -122,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/edit.html.erb" />
@@ -136,8 +139,9 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/spec/factories.rb" />
         <option value="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" />
-        <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/users/_user.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
       </list>
     </option>
   </component>
@@ -941,7 +945,11 @@
       <created>1364253854155</created>
       <updated>1364253854155</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Works up to start of 9.3.4 partial refactoring">
+      <created>1364256354308</created>
+      <updated>1364256354308</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -977,7 +985,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17283951" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42200327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="304" y="282" width="1297" height="458" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42200327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="304" y="282" width="1297" height="458" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1026,7 +1034,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed.  Start at 9.3.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Works up to start of 9.3.4 partial refactoring" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1042,16 +1050,12 @@
     <MESSAGE value="Up to 9.2.2 - requiring the right user." />
     <MESSAGE value="Up to listing 9.1.5" />
     <MESSAGE value="Fixed.  Start at 9.3.2" />
+    <MESSAGE value="Works up to start of 9.3.4 partial refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/users/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="53" selection-start="709" selection-end="709" vertical-scroll-proportion="0.58776593" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/support/utilities.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="50" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" />
@@ -1137,16 +1141,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="31" selection-start="228" selection-end="228" vertical-scroll-proportion="-7.1923075">
+        <state line="5" column="47" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/users/_user.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="47" selection-start="229" selection-end="229" vertical-scroll-proportion="0.2607362">
+        <state line="2" column="32" selection-start="74" selection-end="74" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="32" selection-start="75" selection-end="75" vertical-scroll-proportion="0.17">
           <folding />
         </state>
       </provider>
