@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7142a142-4efb-45c8-94c4-8ab18a412a1c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_feed.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_feed_item.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/microposts_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/microposts/_micropost.html.erb" afterPath="$PROJECT_DIR$/app/views/microposts/_micropost.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/microposts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/microposts_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" />
+    <list default="true" id="7142a142-4efb-45c8-94c4-8ab18a412a1c" name="Default" comment="Finishes chapter 10.  All tests pass.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sample_app.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7142a142-4efb-45c8-94c4-8ab18a412a1c" time="1364351245843" ignored="false" />
+    <file path="/Dummy.txt" changelist="7142a142-4efb-45c8-94c4-8ab18a412a1c" time="1364352923701" ignored="false" />
     <file path="/Ruby Console" changelist="7142a142-4efb-45c8-94c4-8ab18a412a1c" time="1364334350868" ignored="false" />
     <file path="/a.rxml" changelist="7142a142-4efb-45c8-94c4-8ab18a412a1c" time="1361247393690" ignored="false" />
     <file path="/a.coffee" changelist="7142a142-4efb-45c8-94c4-8ab18a412a1c" time="1361247399643" ignored="false" />
@@ -80,7 +70,7 @@
       <file leaf-file-name="microposts_helper.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/helpers/microposts_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="3" selection-start="343" selection-end="343" vertical-scroll-proportion="0.8409894">
+            <state line="9" column="77" selection-start="214" selection-end="214" vertical-scroll-proportion="0.54063606">
               <folding />
             </state>
           </provider>
@@ -1133,7 +1123,11 @@
       <created>1364351248750</created>
       <updated>1364351248750</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Finishes chapter 10.  All tests pass.">
+      <created>1364352777269</created>
+      <updated>1364352777269</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1149,7 +1143,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17283951" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45812806" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="304" y="282" width="1297" height="458" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45812806" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="304" y="282" width="1297" height="458" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1198,7 +1192,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Works up to start of 10.3.3 a proto-feed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishes chapter 10.  All tests pass." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1221,6 +1215,7 @@
     <MESSAGE value="Adds better styling to microposts." />
     <MESSAGE value="Works up to updating homepage in 10.31" />
     <MESSAGE value="Works up to start of 10.3.3 a proto-feed" />
+    <MESSAGE value="Finishes chapter 10.  All tests pass." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1333,7 +1328,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/microposts_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="3" selection-start="343" selection-end="343" vertical-scroll-proportion="0.8409894">
+        <state line="9" column="77" selection-start="214" selection-end="214" vertical-scroll-proportion="0.54063606">
           <folding />
         </state>
       </provider>
